@@ -35,6 +35,9 @@ module Shiftzilla
         :host => cfg_file['SSH']['host'],
         :path => cfg_file['SSH']['path'],
         :url  => cfg_file['SSH']['url'],
+        :url  => cfg_file['SSH']['url'],
+        :user  => cfg_file['SSH']['user'],
+        :password  => cfg_file['SSH']['password'],
       }
     end
 
